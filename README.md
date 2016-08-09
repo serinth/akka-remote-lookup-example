@@ -13,6 +13,6 @@ This will start an Akka Actor that listens for an email operation on **127.0.0.1
 
 # RemoteLookup
 
-This will start an Akka Actor that sends an email operation to a remote EmailSystem (Running on a different Host/JVM) on a random port.
+This will start an Akka Actor that sends an email operation to a remote EmailSystem (Running on a different Host/JVM) on a random port. Modify the `lookup.conf` file to change host and port settings.
 
 Starting both programs in separate terminals should demonstrate this.
